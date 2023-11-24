@@ -1,2 +1,3 @@
 # Chatapp-Bots-models
-ML Chatbot models for a chatapp
+These are ML Chatbot models for a chatapp that I am working in collaboration with my school colleagues.
+
