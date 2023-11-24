@@ -37,7 +37,7 @@ for intent in intents:
         if intent["tag"] not in classes:
             classes.append(intent["tag"])
 
-# Stem and lowercase the words, removing ignored words
+# Stem and lowercase the words and removing ignored words
 words = [stemmer.stem(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
 
