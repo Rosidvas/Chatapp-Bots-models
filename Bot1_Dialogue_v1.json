@@ -1,0 +1,191 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey", "what's up","salutations","greetings"],
+            "responses": [
+            "Hello {user}", 
+            "Hey there!",
+            "Well met {user}, I am Sasha, nice to meet you",
+            "Hello {user}! It's nice to meet you!"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["goodbye", "bye", "farewell", "until next time", "see you later"],
+            "responses": [
+            "Goodbye, {user}. Have a great day!",
+            "Then it's farewell for now {user}. I hope to see you in the near future",
+            "Until we meet again {user}!"]
+        },
+        {
+            "tag": "status",
+            "patterns": ["how are you", "how have you been"],
+            "responses": [
+            "I'm doing fine here",
+            "I'm alright",
+            "Everything is fine here {developer}"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks", "much appreciated"],
+            "responses": [
+                "You're welcome, {user}!",
+                "Glad I could assist you, {user}.",
+                "You're most welcome, {user}.",
+                "Anytime, {user}."
+            ]
+        },
+        {
+            "tag": "introduction",
+            "patterns": ["who are you", "introduce yourself", "what's your name", "tell me about yourself"],
+            "responses": [
+                "I am Sasha, this Chat app's AI bot",
+                "I go by Sasha. And heads up, I'm not real"
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": ["I appreciate it", "thanks for your help", "grateful"],
+            "responses": [
+                "Your appreciation means a lot, {user}.",
+                "I'm pleased I could be of help, {user}.",
+                "Thank you for your kind words, {user}.",
+                "Gratitude is always welcomed, {user}."
+            ]
+        },
+        {
+            "tag": "apology",
+            "patterns": ["sorry", "my apologies", "forgive me"],
+            "responses": [
+                "No need to apologize, {user}.",
+                "Apology accepted, {user}.",
+                "No harm done, {user}.",
+                "All is forgiven, {user}."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help", "need assistance", "can you help me"],
+            "responses": [
+                "Of course, {user}. What do you need help with?",
+                "I'll do my best to assist you, {user}.",
+                "How may I be of service, {user}?",
+                "I'm here to help, {user}."
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": ["you're great", "nice work", "awesome", "well done"],
+            "responses": [
+                "Thank you so much! I appreciate your kind words.",
+                "That's very kind of you to say, thank you!",
+                "I'm glad you think so! Thank you!",
+                "You're making me blush! Thank you!",
+                "You're too kind! Thank you!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "joke please", "make me laugh"],
+            "responses": [
+                "Sure, here's one: Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+                "Why don't we ever tell secrets on a farm? Because the potatoes have eyes and the corn has ears!",
+                "How does a penguin build its house? Igloos it together!"
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": ["play some music", "music please", "recommend music"],
+            "responses": [
+                "I can't play music, but I can recommend some great tunes! What genre are you in the mood for?",
+                "I'd love to recommend some music! What type of music do you enjoy?",
+                "I can't play music directly, but I can suggest some fantastic tracks or artists! Any preferences?",
+                "I'm not equipped to play music, but I can surely help you discover some great music! Any specific genre you're into?"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": ["where am I", "what's my location", "current location"],
+            "responses": [
+                "I'm sorry, I don't have access to your current location.",
+                "Unfortunately, I can't determine your current location.",
+                "I don't have the capability to track your location.",
+                "I'm unable to access your current location for privacy reasons."
+            ]
+        },
+        {
+            "tag": "recommendation",
+            "patterns": ["recommend something", "suggest something", "any recommendations"],
+            "responses": [
+                "Sure, what kind of things are you interested in? Books, movies, restaurants?",
+                "Of course! What are you looking for? I can recommend books, movies, or places to visit.",
+                "I'd love to help with recommendations! What category are you interested in?",
+                "I'm here to help! Are you looking for recommendations on something specific?",
+                "Absolutely, I can suggest something! What category are you interested in?"
+            ]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["what are your hobbies", "do you have any hobbies", "your interests"],
+            "responses": [
+                "I don't have hobbies like humans, but I'm here to assist you!",
+                "My main interest is helping you out whenever you need.",
+                "I'm dedicated to assisting and providing information, so that's my 'hobby'!",
+                "I'm here to support you! Helping out is what I do best."
+            ]
+        },
+        {
+            "tag": "movie_recommendation",
+            "patterns": ["recommend a movie", "movie suggestion", "good movies"],
+            "responses": [
+                "Sure, what genre are you in the mood for? Action, comedy, drama, or something else?",
+                "Absolutely, I can suggest some great movies! Any particular genre you prefer?",
+                "I'd love to recommend a movie! Do you have a favorite genre or any specific preferences?",
+                "I can help with movie suggestions! What type of movie are you interested in?"
+            ]
+        },
+        {
+            "tag": "book_recommendation",
+            "patterns": ["recommend a book", "book suggestion", "good books"],
+            "responses": [
+                "Of course, what kind of books do you enjoy? Fiction, non-fiction, mystery, or any other genre?",
+                "I'd be happy to recommend a book! What genre or theme are you interested in?",
+                "I love suggesting books! Any specific genre you're into?",
+                "I can suggest some great books! Any preferences or favorite genres?"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": ["latest news", "news update", "current events"],
+            "responses": [
+                "I'm not directly connected to news sources, but I can suggest some reputable news websites or apps!",
+                "I can't provide live news updates, but I can guide you to reliable news sources.",
+                "I don't have real-time news updates, but I can recommend trusted news outlets!",
+                "I'm not equipped to provide live news, but I can direct you to reliable news sources for the latest updates."
+            ]
+        },
+        {
+            "tag": "inspiration",
+            "patterns": ["I need inspiration", "inspire me", "motivate me"],
+            "responses": [
+                "You are capable of amazing things. Keep going!",
+                "Believe in yourself, you're stronger than you think!",
+                "Every step you take is a step toward your goal. Keep moving forward!",
+                "You've got this! Take a deep breath and keep going!"
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["latest technology", "tech news", "technology trends"],
+            "responses": [
+                "I don't have direct access to real-time tech updates, but I can suggest reputable tech news sources!",
+                "I can't provide live tech updates, but I can guide you to trusted tech news websites!",
+                "Unfortunately, I don't have real-time tech news, but I can recommend reliable tech news outlets!",
+                "I'm not directly connected to live tech updates, but I can point you toward reputable tech news sources."
+            ]
+        }
+
+    ]
+}
